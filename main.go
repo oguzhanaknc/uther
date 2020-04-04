@@ -36,7 +36,7 @@ var days = [7]string{"pazartesi", "salı", "çarşamba", "perşembe", "cuma", "c
 var sadEmoji = [6]string{"😔", "😟", "😕", "😳", "🥺", "😩"}
 var okayEmoji = [6]string{"🔥", "👌", "👉", "👍", "💪", "⏰"}
 
-var bot = tgbot.InitTeleBot("1039012461:AAFEDMiz11PmWCpGpXWTo5QABo3yM3ciw_4")
+var bot = tgbot.InitTeleBot(<bot key buraya gelecek>)
 var id int64 = 511092151
 var chatID int64
 
