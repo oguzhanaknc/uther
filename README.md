@@ -8,11 +8,13 @@ Use the package manager [git](https://github.com/oguzhanaknc/uther.git) to insta
 ```bash
 git clone https://github.com/oguzhanaknc/github-blog.git
 ```
-
+```go
+go get -u ./...
+```
 ## Kullanım
 
 ```go
-go get -u ./...
+go run ./main.go
 ```
 
 ## Açıklamlar
